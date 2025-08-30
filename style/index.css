@@ -1,0 +1,114 @@
+*{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+    font-family: "Arsenal", sans-serif;
+}
+
+/* elementos da lista cabeçario */
+.menu {
+    align-items: center;
+    display: flex;
+    height: 120px;
+    background-color: #112244;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+    
+
+}
+.id_img{
+    padding-left: 13%;
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    width: 9%;
+    
+}
+
+li {
+    margin-right: 25%;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+#inicio {
+    color: orange;
+}
+
+li :hover {
+    color: orange;
+    border-bottom: 3.5px solid orange;
+    padding-bottom: 20%;
+    font-size: 1.1vw;
+}
+
+/* imagem que fica de fundo da tela */
+.imagemCentro{
+    display: flex;
+}
+
+.imagemCentro img{
+    width: 100%;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 23%;
+    left: 9%;
+    display: flex;
+    gap: 30px;
+}
+
+.button{
+    background: #FF7B00;
+    color: #112244;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* advogados */
+.advogados{
+    display: flex;
+
+}
+
+.advogados img{
+     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 25%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.infos{
+    margin: 3%;
+    margin-right: 10%;
+    
+}
+.infos h3, .faixa_esquerda h3 {
+    color: #FF7B00;
+}
+
+.infos h1, .faixa_esquerda h1 {
+    color: #112244;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.infos p, .faixa_esquerda p {
+    font-size: 1.5vw;
+    color: #112244;
+    line-height: 1.5;
+}
