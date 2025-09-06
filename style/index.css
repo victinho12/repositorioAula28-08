@@ -1,8 +1,8 @@
-*{
-	margin-bottom: 0px;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+* {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: "Arsenal", sans-serif;
 }
 
@@ -18,27 +18,30 @@ ul {
     display: flex;
     list-style: none;
     margin-left: 10%;
-    
+
 
 }
-.id_img{
+
+.id_img {
     padding-left: 13%;
     width: 100%;
     height: 100%;
     height: 100%;
     width: 9%;
-    
+
 }
 
 li {
     margin-right: 25%;
-    
+
 }
+
 a {
     color: white;
     text-decoration: none;
     font-size: 1.2vw;
 }
+
 #inicio {
     color: orange;
 }
@@ -51,15 +54,15 @@ li :hover {
 }
 
 /* imagem que fica de fundo da tela */
-.imagemCentro{
+.imagemCentro {
     display: flex;
 }
 
-.imagemCentro img{
+.imagemCentro img {
     width: 100%;
 }
 
-.buttons{
+.buttons {
     position: absolute;
     bottom: 23%;
     left: 9%;
@@ -67,7 +70,7 @@ li :hover {
     gap: 30px;
 }
 
-.button{
+.button {
     background: #FF7B00;
     color: #112244;
     padding: 12px 24px;
@@ -78,37 +81,174 @@ li :hover {
 }
 
 /* advogados */
-.advogados{
+.advogados {
     display: flex;
-
+    align-items: center;
 }
 
-.advogados img{
-     border-top-left-radius: 10px;
+.advogados img {
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 25%;
     margin-top: 3%;
     margin-left: 10%;
 }
 
-.infos{
+.infos,
+.infosTraje {
     margin: 3%;
     margin-right: 10%;
-    
+
 }
-.infos h3, .faixa_esquerda h3 {
+
+.infos h3,
+.faixa_esquerda h3 {
     color: #FF7B00;
 }
 
-.infos h1, .faixa_esquerda h1 {
+.infos h1,
+.faixa_esquerda h1 {
     color: #112244;
-    font-weight: 700;
     font-size: 2vw;
     margin-bottom: 2%;
 }
 
-.infos p, .faixa_esquerda p {
+.infos p,
+.faixa_esquerda p {
     font-size: 1.5vw;
     color: #112244;
     line-height: 1.5;
+}
+
+/* trajetoria */
+.trajetoria {
+    display: flex;
+
+}
+
+.infosTraje {
+    align-items: center;
+    margin-left: 7%;
+    width: 50%;
+}
+
+.infosTraje h3 {
+    color: #FF7B00;
+
+}
+
+.infosTraje h1 {
+    color: #112244;
+    font-size: 2vw;
+    margin-bottom: 1.4%;
+
+}
+
+.infosTraje p {
+    align-items: center;
+    font-size: 1.4vw;
+    color: #112244;
+    line-height: 1.5;
+}
+
+/* accordeas */
+.accordeas {
+    width: 55%;
+    padding-left: 1px;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+details {
+    width: 100%;
+    margin: 3%;
+    border: 2px solid #FF7B00;
+    border-radius: 8px;
+    background-color: #ff7b0035;
+    overflow: hidden;
+
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px;
+    background-color: #FF7B00;
+    color: #112244;
+    font-weight: bold;
+    border-bottom: 1px solid #FF7B00;
+
+}
+
+details :hover {
+    background-color: #112244;
+    color: #ffffff;
+}
+
+details p {
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+}
+
+/* trajetoria */
+.valores {
+    padding: 2%;
+    height: auto;
+    background-color: #112244;
+    text-align: center;
+    font-size: 1.2vw;
+
+}
+
+.fundamentos h4 {
+    margin-bottom: 2.3%;
+    color: #FF7B00;
+
+
+}
+
+.fundamentos h2 {
+    color: white;
+    margin-bottom: 2.3%;
+}
+
+.fundamentos p {
+    color: white;
+    font-size: 0.8;
+
+}
+/* quadrados */
+.quadrados {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3% auto;
+    gap: 4%;
+}
+.quadrado {
+    width: 40px;
+    height: 290px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: left;
+    padding: 2px;
+    background-color: white;
+    flex: 1 1 calc(33.33% - 3%);
+    margin-bottom: 4%;
+}
+.quadrado:hover {
+    background-color: #FF7B00;
+    transition: 0.3s;
+}
+#titleBolsomaro{
+    margin-left: 34%;
+    font-size: 1vw;
+    margin-bottom: 3%;
+    color: #FF7B00;
+
+}
+
+#paragrafoTrump{
+    
 }
