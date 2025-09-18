@@ -68,7 +68,7 @@ li :hover {
     gap: 20px;
 }
 
-.button {
+#button {
     background: #FF7B00;
     color: #112244;
     padding: 12px 24px;
@@ -78,7 +78,7 @@ li :hover {
     transition: 0.3s;
 }
 
-.button:hover {
+#button:hover {
     background: #112244;
     color: #ffffff;
 }
@@ -338,24 +338,55 @@ details p {
         height: 100%;
     }
 
-    .buttons {
-        position: absolute;
-        bottom: 73%;
-        left: 2%;
-        display: flex;
+    #buttons {
+        flex-direction: column;
         gap: 10px;
-
+        margin-bottom: 20%;
     }
 
-    .button {
-        background: #FF7B00;
-        color: #112244;
-        padding: 44px 80px;
-        border-radius: 6px;
-        cursor: pointer;
-        font-weight: bold;
-        transition: 0.3s;
-        font-size: 2vw;
-
+    #button {
+        margin-bottom: 560px;
+        padding: 3px 4px;
+        font-size: 10px;
     }
+
+    .accordeas {
+        width: 60%;
+        padding-left: 1px;
+        padding-right: 10%;
+        padding-top: 5%;
+    }
+
+    details {
+    width: 100%;
+    margin: 3%;
+    border: 2px solid #FF7B00;
+    border-radius: 8px;
+    background-color: #ffffff35;
+    overflow: hidden;
+
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px;
+    background-color: #FF7B00;
+    color: #112244;
+    font-weight: bolder;
+    border-bottom: 1px solid #FF7B00;
+
+}
+
+details :hover {
+    background-color: #112244;
+    color: #ffffff;
+}
+
+details p {
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+}
+    
 }
