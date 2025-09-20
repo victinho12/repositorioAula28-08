@@ -1,0 +1,136 @@
+/* formatando site */
+* {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Arsenal', sans-serif;
+
+}
+
+/* menu de noticias */
+.menu {
+    align-items: center;
+    display: flex;
+    height: 120px;
+    background-color: #112244;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+}
+
+.id_img {
+    padding-left: 13%;
+    height: 100%;
+    width: 9%;
+
+}
+
+li {
+    margin-right: 25%;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+#noticias {
+    color: orange;
+}
+
+li :hover {
+    color: orange;
+    border-bottom: 3.5px solid orange;
+    padding-bottom: 10%;
+}
+
+/* a primeira imagem da parte de cima */
+.divunic {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.divunic img {
+    border-radius: 10px;
+    height: 85%;
+    width: 85%;
+}
+
+.divunic figure {
+    padding: 5px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+}
+
+.divunic figcaption {
+    border-radius: 5px;
+    border: 5px solid #112244;
+    padding: 3px;
+    height: 80%;
+    width: 84.2%;
+    color: aliceblue;
+    background-color: #112244;
+    text-align: center;
+}
+
+.divduble {
+    margin: 10%;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    gap: 5%;
+}
+
+.divduble img {
+    height: 105%;
+    width: 105%;
+    border-radius: 10px;
+
+}
+
+.divduble figure {
+    padding: 5px;
+    align-items: center;
+    margin: auto;
+}
+
+.divduble figcaption {
+    border-radius: 5px;
+    border: 10px solid #112244;
+    background-color: #112244;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.divetriple {
+    display: flex;
+    /* margin: 1%; */
+    margin-left: 10%;
+}
+
+.divetriple img {
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+}
+.divetriple figure{
+    width: 33%;
+    margin: auto;
+    align-items: center;
+
+}
+.divetriple figcaption{
+    width: 100%;
+}
