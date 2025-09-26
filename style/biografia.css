@@ -1,0 +1,74 @@
+/* formatando site */
+/* formatando site */
+* {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Arsenal', sans-serif;
+
+}
+
+/* menu de noticias */
+.menu {
+    align-items: center;
+    display: flex;
+    height: 120px;
+    background-color: #112244;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+}
+
+.id_img {
+    padding-left: 13%;
+    height: 100%;
+    width: 9%;
+
+}
+
+li {
+    margin-right: 25%;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+#noticias {
+    color: orange;
+}
+
+li :hover {
+    color: orange;
+    border-bottom: 3.5px solid orange;
+    padding-bottom: 10%;
+}
+#inicio{
+    color: orange;
+}
+.biografia{
+    display: flex;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.biografia img{
+    height: 20%;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 8%;
+    box-shadow: 10px 10px 100px #112244;
+}
+.textBio{
+    margin-left: 5%;
+    padding-right: 20%;
+    font-size: 1.2vw;
+    align-items: center;    
+}

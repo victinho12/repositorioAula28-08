@@ -137,3 +137,24 @@ li :hover {
     margin-top: 8px;
     width: 100%;
 }
+.back_redes{
+    background-color: #112244;
+}
+.redesicones{
+    text-align: center;
+}
+.redesicones img{
+    background-color: aliceblue;
+    height: 2%;
+    width: 2%;
+    margin-bottom: 2%;
+}
+.redestext{
+    color: aliceblue;
+    font-size: 1.5vw;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.redesicones :hover{
+    background-color: orange;
+}
