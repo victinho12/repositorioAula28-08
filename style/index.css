@@ -5,6 +5,10 @@
     margin-right: 0px;
     font-family: "Arsenal", sans-serif;
 }
+* p{
+    line-height: 2;
+}
+
 
 /* elementos da lista cabeçario */
 .menu {
@@ -128,7 +132,6 @@ li :hover {
 /* trajetoria */
 .trajetoria {
     display: flex;
-
 }
 
 .infosTraje {
@@ -139,6 +142,7 @@ li :hover {
 
 .infosTraje h3 {
     color: #FF7B00;
+        line-height: 2;
 
 }
 
@@ -146,14 +150,15 @@ li :hover {
     color: #112244;
     font-size: 2vw;
     margin-bottom: 1.4%;
+        line-height: 2;
 
 }
 
 .infosTraje p {
     align-items: center;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     color: #112244;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /* accordeas */
